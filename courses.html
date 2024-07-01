@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hand Talk : Courses</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISabIRV1D11hCQzgER7TBGkqvjqoU2f-vOVCzfCPfSJrBk0WOqN_XeXNykYCWxtv09AQ&usqp=CAU" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISabIRV1D11hCQzgER7TBGkqvjqoU2f-vOVCzfCPfSJrBk0WOqN_XeXNykYCWxtv09AQ&usqp=CAU" alt="" height="50px">Hand<span
+                    style="color: #fb873f;">Talk</span></p>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            style="border: none;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <!-- <a href="team.html" class="dropdown-item">Our Team</a> -->
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="login.html" class="nav-item nav-link"><i class="fa fa-user"></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Courses</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Courses</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+<!-- Categories Start -->
+<div class="container-xxl py-5 category">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center px-3">Categories</h6>
+            <h1 class="mb-5" style="color: #fb873f;">Popular Topics to Explore</h1>
+        </div>
+        <div class="row g-2 m-2">
+            <!-- Sign Language category -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="data:image/png;base64,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" class="img-fluid" alt="Sign Language">
+                    <h5 class="my-2">
+                        <a href="#" class="text-center">Sign Language</a>
+                    </h5>
+                </div>
+            </div>
+            <!-- Speech to Text category -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="data:image/png;base64,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" class="img-fluid" alt="Speech to Text">
+                    <h5 class="my-2">
+                        <a href="#" class="text-center">Speech to Text</a>
+                    </h5>
+                </div>
+            </div>
+            <!-- Speech Recognition category -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="data:image/png;base64,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" class="img-fluid" alt="Speech Recognition">
+                    <h5 class="my-2">
+                        <a href="#" class="text-center">Speech Recognition</a>
+                    </h5>
+                </div>
+            </div>
+            <!-- Add more categories as needed -->
+        </div>
+    </div>
+</div>
+<!-- Categories End -->
+
+
+
+    
+<!-- Courses Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center px-3">Popular Courses</h6>
+            <h1 class="mb-5" style="color: #fb873f;">Explore new and trending free online courses</h1>
+        </div>
+        <div class="row g-4 py-2">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item shadow">
+                    <div class="position-relative overflow-hidden text-light image">
+                        <img class="img-fluid" src="https://westportlibrary.org/wp-content/uploads/2022/04/ASL-box-500-%C3%97-300-px-1.png" alt="">
+                        <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                            class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+                    </div>
+                    <div class="p-2 pb-0">
+                        <h5 class="mb-1"><a href="single.html" class="text-dark">Introduction to American Sign Language (ASL)</a></h5>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i> 4.8</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>10k+ Learners</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user me-2"></i>Beginner</small>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>5.0 Hrs</small>
+                        <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                        <small class="text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item shadow">
+                    <div class="position-relative overflow-hidden text-light image">
+                        <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzjssTHXDZOzLLFlUmLKlH0T6U2ApCbDtxA&s" alt="">
+                        <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                            class="px-2 py-1 fw-bold text-uppercase">PAID</div>
+                    </div>
+                    <div class="p-2 pb-0">
+                        <h5 class="mb-1">Advanced American Sign Language (ASL)</h5>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i> 4.7</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>8k+ Learners</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user me-2"></i>Intermediate</small>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>8.0 Hrs</small>
+                        <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 499</small>
+                        <small class="text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item shadow">
+                    <div class="position-relative overflow-hidden text-light image">
+                        <img class="img-fluid" src="https://ml8nf9kal4wx.i.optimole.com/cb:md4F.66354/w:768/h:432/q:mauto/f:best/ig:avif/https://www.braintreecommunitycentre.org.uk/wp-content/uploads/2023/02/bsl.jpg" alt="">
+                        <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                            class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+                    </div>
+                    <div class="p-2 pb-0">
+                        <h5 class="mb-1">Basic British Sign Language (BSL)</h5>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i> 4.6</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>15k+ Learners</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user me-2"></i>Beginner</small>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.0 Hrs</small>
+                        <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                        <small class="text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item shadow">
+                    <div class="position-relative overflow-hidden text-light image">
+                        <img class="img-fluid" src="https://img.freepik.com/premium-photo/sign-language-collage-design_23-2150528197.jpg" alt="">
+                        <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                            class="px-2 py-1 fw-bold text-uppercase">PAID</div>
+                    </div>
+                    <div class="p-2 pb-0">
+                        <h5 class="mb-1">Sign Language for Professionals</h5>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i> 4.9</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5k+ Learners</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user me-2"></i>Advanced</small>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>10.0 Hrs</small>
+                        <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 999</small>
+                        <small class="text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="course-item shadow">
+                    <div class="position-relative overflow-hidden text-light image">
+                        <img class="img-fluid" src="https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/eb/31/american-sign-language-asl-everyday-phrases-bulletin-board-pack-handout-us-e-1706750684_ver_1.webp" alt="">
+                        <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                            class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+                    </div>
+                    <div class="p-2 pb-0">
+                        <h5 class="mb-1">Everyday Sign Language</h5>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i> 4.5</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>12k+ Learners</small>
+                        <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user me-2"></i>Beginner</small>
+                    </div>
+                    <div class="d-flex">
+                        <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>6.0 Hrs</small>
+                        <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                        <small class="text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll Now</a> <i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Courses End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <p><a class="text-light" href="about.html">About Us</a></p>
+                    <p><a class="text-light" href="contact.html">Contact Us</a></p>
+                    <p><a class="text-light" href="">Privacy Policy</a></p>
+                    <p><a class="text-light" href="">Terms & Condition</a></p>
+                    <p><a class="text-light" href="">FAQs & Help</a></p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KIET Group of
+                    Institution</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7454040400</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>handtalk@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                <h4 class="text-white mb-3">Stay Updated with Hand Speak</h4>
+                <p>Join our community to receive the latest updates and insights on sign language technology.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <form action="#">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
+                            placeholder="Your email" required>
+                        <button type="submit"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a
+                                href="mailto:keertidvcorai@gmail.com">Subscribe</a></button>
+                   </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Hand TAlk</a>, All Right Reserved.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
